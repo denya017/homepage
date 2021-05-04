@@ -1,47 +1,48 @@
 main {
-    background: #FFA6A6;
-    background: -webkit-linear-gradient(top left, #FFA6A6, #FFE86A);
-    background: -moz-linear-gradient(top left, #FFA6A6, #FFE86A);
-    background: linear-gradient(to bottom right, #FFA6A6, #FFE86A);
+  background: #FFA6A6;
+  background: -webkit-linear-gradient(top left, #FFA6A6, #FFE86A);
+  background: -moz-linear-gradient(top left, #FFA6A6, #FFE86A);
+  background: linear-gradient(to bottom right, #FFA6A6, #FFE86A);
 }
 
 #why {
-    background-color: transparent;
-    border: none;
-    color: #3F15D7;
-    font-size: inherit;
-    font-style: italic;
+  background-color: transparent;
+  border: none;
+  color: #3F15D7;
+  font-size: inherit;
+  font-style: italic;
 }
 
 #why:focus {
-    outline: 0;
+  outline: 0;
 }
 
 #answer {
-    display: none;
+  display: none;
 }
 
 #music {
-    background: #08002F;
-    background: -webkit-linear-gradient(top left, #08002F, #3F15D7);
-    background: -moz-linear-gradient(top left, #08002F, #3F15D7);
-    background: linear-gradient(to bottom right, #08002F, #3F15D7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: #08002F;
+  background: -webkit-linear-gradient(top left, #08002F, #3F15D7);
+  background: -moz-linear-gradient(top left, #08002F, #3F15D7);
+  background: linear-gradient(to bottom right, #08002F, #3F15D7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-#music:hover, #why:hover {
-    cursor: pointer;
+#music:hover,
+#why:hover {
+  cursor: pointer;
 }
 
 .contacts li a.instagram:hover {
-    color: #b02f75;
+  color: #b02f75;
 }
 
 .contacts li a.website {
-    display: block;
+  display: block;
 }
 
 .contacts li a.website:hover {
-    color: #46a552;
+  color: #46a552;
 }
