@@ -1,10 +1,606 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
+<head>
+    <meta charset="UTF-8"/>
     <title>Résumé</title>
-  </head>
-  <body>
-    ― Hello World! &#x1F609;
-  </body>
+    <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
+    <link rel="stylesheet" href="my.css">
+</head>
+<body>
+<main>
+    <article>
+        <div class="page" style="border-color: midnightblue;">
+            <div class="stackable grid">
+                <div class="row">
+                    <div class="three wide center aligned column">
+                        <div class="avatar-wrapper">
+                            <object class="avatar" data="./assets/images/avatar.jpeg" role="img"
+                                    aria-label="My profile picture"></object>
+                        </div>
+                    </div>
+                    <div class="thirteen wide column">
+                        <div class="stackable grid">
+                            <div class="sixteen wide column">
+                                <h1 class="name">Verka Serduchka</h1>
+                                <div class="job">A conductor in the past, singer, TV presenter, actress, just a star
+                                </div>
+                                <ul class="contacts">
+                                    <li>
+                                        <a href="https://serduchka.com" rel="author" class="website">
+                                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                                <path fill="currentColor"
+                                                      d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z"></path>
+                                            </svg>
+                                            <span>serduchka.com</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.facebook.com/VerkaSerduchka.Official" rel="author"
+                                           class="facebook">
+                                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                <path d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z"/>
+                                            </svg>
+                                            <span>VerkaSerduchka.Official</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/v_serduchka/" rel="author" class="instagram">
+                                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                                            </svg>
+                                            <span>v_serduchka</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="sixteen wide mobile only column">
+                                <div class="divider"></div>
+                            </div>
+                            <div class="sixteen wide column">
+                                <h2>Résumé</h2>
+                                <p>&mdash; The star on my head for a reason.
+                                    <button id="why">Why?</button>
+                                    <span id="answer">I sparked Europe at the Eurovision Song
+                                    Contest 2007 with <span id="music"><em>#DancingLashaTumbai🎵&nbsp;</em></span>. Best upgrade from a simple conductor. I was
+                                    filming in Hollywood #Spy with Jason Statham. Мy favorite brand is Dolce & Gabbana.
+                                    My songs are the anthem of all feasts. #ChitaDrita Life motto: "Everything will be
+                                    fine."</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="sixteen wide column">
+                        <div class="fat divider"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ten wide column">
+                        <h3>Experience</h3>
+                        <h5>A television 📺</h5>
+                        <ul class="timeline">
+                            <li>
+                                <p><em>April 2021</em></p>
+                                <p>Together with my mother, we closed the anniversary season of the <strong><a
+                                        href="https://www.youtube.com/watch?v=zgnZMnGVzoo">«Heads and
+                                    Tails»</a></strong> program with a release from Barcelona.</p>
+                            </li>
+                            <li>
+                                <p><em>4<sup>th</sup> November 1997 – 4<sup>th</sup> May 2002</em></p>
+                                <p>Host of the <a href="https://ru.wikipedia.org/wiki/СВ-шоу"><strong>«SV show»</strong></a>.
+                                </p>
+                            </li>
+                        </ul>
+
+                        <h5>Eurovision 🎼</h5>
+                        <ul class="timeline">
+                            <li>
+                                <p><em>18<sup>th</sup> May 2019</em></p>
+                                <p>Took part in the Eurovision final as a guest star, <strong>re-singing</strong> the
+                                    song of last year's winner of the competition <strong>Netta - "Toy"</strong>.</p>
+                            </li>
+                            <li>
+                                <p><em>28<sup>th</sup> June 2017</em></p>
+                                <p>In Kiev, within the framework of the <strong>Atlas Weekend Festival</strong>, a
+                                    concert was held dedicated to the return of Serdyuchka to the big stage of the CIS.
+                                </p>
+                            </li>
+                            <li>
+                                <p><em>12<sup>th</sup> May 2007</em></p>
+                                <p><strong>Eurovision 2007</strong> in Helsinki - song <strong><a
+                                        href="https://www.youtube.com/watch?v=hfjHJneVonE">"Dancing Lasha Tumbai"</a>,
+                                    2nd
+                                    place.</strong></p>
+                            </li>
+                        </ul>
+
+                        <h5>Discography 📀</h5>
+                        <ul>
+                            <li class="details">
+                                <input type="checkbox" id="albums">
+                                <label for="albums" class="summary"><strong>Albums</strong></label>
+                                <div>
+                                    <ul class="timeline">
+                                        <li>
+                                            <p><em>2020</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>Sexy (mini album)</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>2008</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>The Best</li>
+                                                <li>Doremi doredo</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>2007</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>Dancing Europe</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>2006</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>Trali-vali (released in three editions on CD and a / k, the albums
+                                                    differed in the color of the cover and the country of the publisher)
+                                                </li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>2004</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>I wanted a groom. Unpublished</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>2003</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>Chita Drita</li>
+                                                <li>Ha-ra-sho!</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>2002</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>Unpublished</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>2001</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>Pie</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>1998</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>I was born to love</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="details">
+                                <input type="checkbox" id="songs">
+                                <label for="songs" class="summary"><strong>Songs</strong></label>
+                                <div>
+                                    <ul class="timeline">
+                                        <li>
+                                            <p><em>2019</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>Make it rain champagne</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>2015</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>Hydropark (Scarlet Lipstick)</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>2012</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>Switter</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>2011</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>Dolce Gabbana</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>2008</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>Doremi</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>2007</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>Evro Vision Queen</li>
+                                                <li>Dancing Lasha Tumbai</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>2005</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>Tralee-wali</li>
+                                                <li>Knock-knock-knock</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>2004</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>The groom wanted (duet with Glucose)</li>
+                                                <li>Northern girls (from the musical "The Snow Queen")</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>2003</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>And I only from the cold</li>
+                                                <li>Party (from the musical "After Two Hares")</li>
+                                                <li>Everything will be fine</li>
+                                                <li>You go north</li>
+                                                <li>I go south</li>
+                                                <li>Chita-drita</li>
+                                                <li>Fir-trees</li>
+                                                <li>I did not understand</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>2002</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>Cinderella (I'm not a prostitute, but just amorous)</li>
+                                                <li>A blizzard sweeps white</li>
+                                                <li>Gorilka</li>
+                                                <li>Patty</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>2001</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>Gop-Gop-Gop</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>1999</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>I was born to love</li>
+                                                <li>New Year</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>1997</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>Just Vera</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="details">
+                                <input type="checkbox" id="clips">
+                                <label for="clips" class="summary"><strong>Video clips</strong></label>
+                                <div>
+                                    <ul class="timeline">
+                                        <li>
+                                            <p>2008</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>Essen (Tim-Tim Taram) (directed by Viktor Skuratovsky)</li>
+                                                <li>Evro Vision Queen (directed by Sergei Dakhin and Evgeny Adamenko)
+                                                </li>
+                                                <li>Doremi (directed by Alan Badoev)</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>2007</p>
+                                            <p>
+                                            <ul>
+                                                <li>Kiss Please (directed by Alan Badoev)</li>
+                                                <li>Dancing Lasha Tumbai (directed by Semyon Gorov)</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>2006</p>
+                                            <p>
+                                            <ul>
+                                                <li>And I am laughing (directed by Semyon Gorov)</li>
+                                                <li>Take everything (that I have) (directed by Alexander Igudin)</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>2005</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>Good for the beauties (directed by Alexander Filatovich)</li>
+                                                <li>Tralli-valli (directed by Alexander Filatovich)</li>
+                                                <li>I fell for love (directed by Semyon Gorov)</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>2004</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>Knock-knock-knock (directed by Semyon Gorov)</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>2003</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>You Drank Like a Pig</li>
+                                                <li>I didn't understand</li>
+                                                <li>Chita-drita (directed by Semyon Gorov)</li>
+                                                <li>Everything will be fine" (directed by Maxim Papernik)</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>2001</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>Vera plus Misha" (duet with Mikhail Poplavsky)</li>
+                                                <li>Gop-gop (directed by Maxim Papernik)</li>
+                                                <li>Pie (directed by Vladimir Yakimenko)</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>1999</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>Controller</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><em>1998</em></p>
+                                            <p>
+                                            <ul>
+                                                <li>A Little Bit" (directed by Vyacheslav Feofilaktov)</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                        <br>
+                        <h5>Filmography 🎬</h5>
+                        <ul class="timeline">
+                            <li>
+                                <p><em>2017</em></p>
+                                <p>
+                                <ul>
+                                    <li>Servant of the People 2 - cameo</li>
+                                </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p><em>2015</em></p>
+                                <p>
+                                <ul>
+                                    <li>Spy - cameo</li>
+                                </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p><em>2013</em></p>
+                                <p>
+                                <ul>
+                                    <li>Three heroes - Baba Yaga</li>
+                                </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p><em>2012</em></p>
+                                <p>
+                                <ul>
+                                    <li>Little Red Riding Hood - Little Red Riding Hood</li>
+                                </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p><em>2011</em></p>
+                                <p>
+                                <ul>
+                                    <li>The New Adventures of Aladdin - Jinsha</li>
+                                </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p><em>2010</em></p>
+                                <p>
+                                <ul>
+                                    <li>Morozko - stepmother</li>
+                                </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p><em>2007</em></p>
+                                <p>
+                                <ul>
+                                    <li>Very New Year's Cinema, or Night at the Museum (directed by R. Butovsky, G.
+                                        Skomorovsky) - a ghost
+                                    </li>
+                                </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p><em>2006</em></p>
+                                <p>
+                                <ul>
+                                    <li>The Adventures of Verka Serduchka - cameo</li>
+                                    <li>First ambulance - cameo</li>
+                                </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p><em>2004</em></p>
+                                <p>
+                                <ul>
+                                    <li>Three Musketeers - Madame Richelieu</li>
+                                    <li>Sorochinskaya fair - Khivrya</li>
+                                </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p><em>2003</em></p>
+                                <p>
+                                <ul>
+                                    <li>Chasing two hares - Svetlana Markovna</li>
+                                    <li>The Snow Queen - Xenia, shaman</li>
+                                </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p><em>2002</em></p>
+                                <p>
+                                <ul>
+                                    <li>Cinderella - Brunhilde</li>
+                                </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p><em>2001</em></p>
+                                <p>
+                                <ul>
+                                    <li>Evenings on a farm near Dikanka - village moonshiner</li>
+                                </ul>
+                                </p>
+                            </li>
+                        </ul>
+
+                        <h5>Personal life 📓</h5>
+                        <ul class="timeline">
+                            <li>
+                                <p><em>7<sup>th</sup> October 1987 – present</em></p>
+                                <p>Live with my mother in Kiev.</p>
+                            </li>
+                            <li>
+                                <p><em>15<sup>th</sup> Mart 1973</em></p>
+                                <p>Born in Poltava City;) 🐣</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="six wide column">
+                        <section>
+                            <h3>Languages 👅</h3>
+                            <p class="tags small">
+                                <span class="language" lang="uk">&#x1f1fa;&#x1f1e6; УКРАЇНСЬКА</span>
+                                <span class="language" lang="ru">&#x1f1f7;&#x1f1fa; РУССКИЙ</span>
+                                <span class="language" lang="en">&#x1f1fa;&#x1f1f8; ENGLISH<sup> - My english nicht verstehen</sup></span>
+                                <span class="language" lang="de">&#x1F1E9;&#x1F1EA; DEUTSCHE<sup> - Sieben, sieben, ai lyu-lyu</sup></span>
+                            </p>
+                        </section>
+                        <section>
+                            <h3>Skills 🔧</h3>
+                            <p class="tags small">DANCING SING <span class="nowrap">TELL ANECDOTE</span> <span
+                                    class="nowrap">HOST EVENTS</span></p>
+                        </section>
+                        <section>
+                            <h3>Character 😊</h3>
+                            <p class="tags small">FANTASTIC</p>
+                        </section>
+                        <section>
+                            <h3>Likes ❤️</h3>
+                            <p class="tags small">MUSIC HUMOUR CARS DOGS MOVIES H&M CREATION <span class="nowrap">DOLCE & GABBANA</span>
+                                CHAMPAGNE SELF-EDUCATION <span class="nowrap">FREDDIE MERCURY</span> <span
+                                        class="nowrap">PHILIP KIRKOROV</span></p>
+                        </section>
+                        <section>
+                            <h3>Dislikes 😒</h3>
+                            <p class="tags small"><span class="nowrap">BAD PARODISTS</span></p>
+                        </section>
+                        <section>
+                            <h3>Wants ✨</h3>
+                            <p class="tags small bulleted"><span class="tag">MORE CORPORATE EVENTS</span></p>
+                        </section>
+                        <section>
+                            <h3>Education 🧐</h3>
+                            <ul class="timeline">
+                                <li>
+                                    <div><em>10<sup>st</sup> October 1987 &ndash; 23<sup>rd</sup> May 1991</em></div>
+                                    <div><strong>Kyiv National <a href="http://www.knukim.edu.ua/">University</a> of
+                                        Culture and Arts</strong></div>
+                                </li>
+                                <li>
+                                    <div><em>1<sup>st</sup> September 1976 &ndash; 7<sup>st</sup> October 1987</em>
+                                    </div>
+                                    <div><strong>Poltava streets</strong></div>
+                                </li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h3>Articles 📚</h3>
+                            <p>
+                            <ul>
+                                <li><em>'No vocals without a glass' (2009)</em></li>
+                            </ul>
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</main>
+<script src="my.js"></script>
+</body>
 </html>
