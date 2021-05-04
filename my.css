@@ -30,7 +30,8 @@ main {
     -webkit-text-fill-color: transparent;
 }
 
-#music:hover, #why:hover {
+#music:hover,
+#why:hover {
     cursor: pointer;
 }
 
