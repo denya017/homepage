@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>Résumé</title>
     <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
+    <link rel="stylesheet" href="my.css">
   </head>
   <body>
   <main>
@@ -12,18 +13,44 @@
         <div class="stackable grid">
           <div class="row">
             <div class="three wide center aligned column">
-              <!-- Avatar -->
+              <div class="avatar-wrapper">
+                <object class="avatar" data="./assets/images/avatar.jpeg" role="img" aria-label="My profile picture"></object>
+              </div>
             </div>
             <div class="thirteen wide column">
               <div class="stackable grid">
                 <div class="sixteen wide column">
-                  <!-- Name, job, contacts -->
+                  <h1 class="name">Verka Serduchka</h1>
+                  <div class="job">A conductor in the past, singer, TV presenter, actress</div>
+                  <ul class="contacts">
+                    <li>
+                      <a href="https://serduchka.com" rel="author" class="website">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z"></path></svg>
+                        <span>serduchka.com</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.facebook.com/VerkaSerduchka.Official" rel="author" class="facebook">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z"/></svg>
+                        <span>VerkaSerduchka.Official</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/v_serduchka/" rel="author" class="instagram">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                        </svg>
+                        <span>v_serduchka</span>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
                 <div class="sixteen wide mobile only column">
                   <div class="divider"></div>
                 </div>
                 <div class="sixteen wide column">
-                  <!-- Intro -->
+                  <h2>Résumé</h2>
+                  <p>&mdash; The star on my head for a reason. I sparked Europe at the Eurovision Song Contest 2007 with #DancingLashaTumbai. Best upgrade from a simple conductor. I was filming in Hollywood #Spy with Jason Statham. Мy favorite brand is Dolce & Gabbana. My songs are the anthem of all feasts. #ChitaDrita Life motto: "Everything will be fine."</p>
                 </div>
               </div>
             </div>
