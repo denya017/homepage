@@ -1,14 +1,14 @@
 main {
-    background: #FFA6A6;
-    background: -webkit-linear-gradient(top left, #FFA6A6, #FFE86A);
-    background: -moz-linear-gradient(top left, #FFA6A6, #FFE86A);
-    background: linear-gradient(to bottom right, #FFA6A6, #FFE86A);
+    background: #ffa6a6;
+    background: -webkit-linear-gradient(top left, #ffa6a6, #ffe86a);
+    background: -moz-linear-gradient(top left, #ffa6a6, #ffe86a);
+    background: linear-gradient(to bottom right, #ffa6a6, #ffe86a);
 }
 
 #why {
     background-color: transparent;
     border: none;
-    color: #3F15D7;
+    color: #3f15d7;
     font-size: inherit;
     font-style: italic;
 }
@@ -22,10 +22,10 @@ main {
 }
 
 #music {
-    background: #08002F;
-    background: -webkit-linear-gradient(top left, #08002F, #3F15D7);
-    background: -moz-linear-gradient(top left, #08002F, #3F15D7);
-    background: linear-gradient(to bottom right, #08002F, #3F15D7);
+    background: #08002f;
+    background: -webkit-linear-gradient(top left, #08002f, #3f15d7);
+    background: -moz-linear-gradient(top left, #08002f, #3f15d7);
+    background: linear-gradient(to bottom right, #08002f, #3f15d7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
